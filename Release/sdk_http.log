@@ -1,0 +1,27 @@
+﻿Build started 19.06.2018 5:05:02.
+     1>Project "D:\lua502\lua\sdk_http\sdk_http.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр построения добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+     1>InitializeBuildStatus:
+         Creating "Release\sdk_http.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\source2006\public\dlls /ID:\source2006\dlls\hl2_dll /ID:\source2006\game_shared\hl2 /ID:\source2006\game_shared\hl2mp /ID:\source2006\game_shared /ID:\source2006\dlls /ID:\source2006\public\tier1 /ID:\source2006\public\tier0 /ID:\source2006\public /ID:\source2006\common /ID:\lua502\lua\lua502_sdk /I"D:\libcurl\builds\libcurl-vc10-x86-release-dll-ipv6-sspi-winssl\include" /ID:\crusader\platform /I"D:\json-parser" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _SSDK /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt json.cpp
+         json.cpp
+     1>D:\json-parser\json.h(259): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\GMod9Dev_Server\gmod9\lua\bin\sdk_http.dll" /NOLOGO /LIBPATH:D:\source2006\lib\public /LIBPATH:D:\lua502\lua\Release /LIBPATH:"D:\libcurl\builds\libcurl-vc10-x86-release-dll-ipv6-sspi-winssl\lib" /LIBPATH:D:\crusader\Release /LIBPATH:"D:\json-parser\Release" lua502_sdk.lib vstdlib.lib tier0.lib tier1.lib platform.lib jsonlib.lib libcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Release\sdk_http.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\GMod9Dev_Server\gmod9\lua\bin\sdk_http.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\GMod9Dev_Server\gmod9\lua\bin\sdk_http.lib" /MACHINE:X86 /DLL Release\http.obj
+         Release\json.obj
+         Release\main.obj
+            Создается библиотека ..\..\..\GMod9Dev_Server\gmod9\lua\bin\sdk_http.lib и объект ..\..\..\GMod9Dev_Server\gmod9\lua\bin\sdk_http.exp
+         Создание кода
+         Создание кода завершено
+         sdk_http.vcxproj -> D:\lua502\lua\sdk_http\..\..\..\GMod9Dev_Server\gmod9\lua\bin\sdk_http.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\GMod9Dev_Server\gmod9\lua\bin\sdk_http.dll;#2" /manifest Release\sdk_http.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\sdk_http.unsuccessfulbuild".
+         Touching "Release\sdk_http.lastbuildstate".
+     1>Done Building Project "D:\lua502\lua\sdk_http\sdk_http.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:01.12
